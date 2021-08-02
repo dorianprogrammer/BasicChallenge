@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Reto2;assembly=Reto2"
+             x:Class="Reto2.MainPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Column="0" Background="{x:Static local:ControlView.ColorOfTheBoxes}"
+            WidthRequest="{x:Static local:ControlView.WidthRequest}"
+            HeightRequest="{x:Static local:ControlView.HeightRequest}"
+            VerticalOptions="{x:Static local:ControlView.VerticalOptionsAtTheStart}"
+            x:Name="Button1" Clicked="ClickOnButton"></Button>
+
+        <Button  Grid.Column="1" Background="{x:Static local:ControlView.ColorOfTheBoxes}"
+                 WidthRequest="{x:Static local:ControlView.WidthRequest}"
+                 HeightRequest="{x:Static local:ControlView.HeightRequest}"
+                 VerticalOptions="{x:Static local:ControlView.VerticalOptionsAtTheStart}"
+                 x:Name="Button2" Clicked="ClickOnButton"></Button>
+
+        <Button Grid.Column="2" Background="{x:Static local:ControlView.ColorOfTheBoxes}"
+                WidthRequest="{x:Static local:ControlView.WidthRequest}"
+                HeightRequest="{x:Static local:ControlView.HeightRequest}"
+                VerticalOptions="{x:Static local:ControlView.VerticalOptionsAtTheStart}"
+                x:Name="Button3" Clicked="ClickOnButton"></Button>
+
+        <Button Grid.Column="0" Background="{x:Static local:ControlView.ColorOfTheBoxes}"
+                WidthRequest="{x:Static local:ControlView.WidthRequest}"
+                HeightRequest="{x:Static local:ControlView.HeightRequest}"
+                VerticalOptions="{x:Static local:ControlView.VerticalOptionsAtTheCenter}"
+                x:Name="Button4" Clicked="ClickOnButton"></Button>
+
+        <Button Grid.Column="1" Background="{x:Static local:ControlView.ColorOfTheBoxes}"
+                WidthRequest="{x:Static local:ControlView.WidthRequest}"
+                HeightRequest="{x:Static local:ControlView.HeightRequest}"
+                VerticalOptions="{x:Static local:ControlView.VerticalOptionsAtTheCenter}"
+                x:Name="Button5" Clicked="ClickOnButton"></Button>
+
+        <Button Grid.Column="2" Background="{x:Static local:ControlView.ColorOfTheBoxes}"
+                WidthRequest="{x:Static local:ControlView.WidthRequest}"
+                HeightRequest="{x:Static local:ControlView.HeightRequest}"
+                VerticalOptions="{x:Static local:ControlView.VerticalOptionsAtTheCenter}"
+                x:Name="Button6" Clicked="ClickOnButton"></Button>
+
+        <Button Grid.Column="0" Background="{x:Static local:ControlView.ColorOfTheBoxes}"
+                WidthRequest="{x:Static local:ControlView.WidthRequest}"
+                HeightRequest="{x:Static local:ControlView.HeightRequest}"
+                VerticalOptions="{x:Static local:ControlView.VerticalOptionsAtTheEnd}"
+                x:Name="Button7" Clicked="ClickOnButton"></Button>
+
+        <Button Grid.Column="1" Background="{x:Static local:ControlView.ColorOfTheBoxes}"
+                WidthRequest="{x:Static local:ControlView.WidthRequest}"
+                HeightRequest="{x:Static local:ControlView.HeightRequest}"
+                VerticalOptions="{x:Static local:ControlView.VerticalOptionsAtTheEnd}"
+                x:Name="Button8" Clicked="ClickOnButton"></Button>
+
+        <Button Grid.Column="2" Background="{x:Static local:ControlView.ColorOfTheBoxes}"
+                WidthRequest="{x:Static local:ControlView.WidthRequest}"
+                HeightRequest="{x:Static local:ControlView.HeightRequest}"
+                VerticalOptions="{x:Static local:ControlView.VerticalOptionsAtTheEnd}"
+                x:Name="Button9" Clicked="ClickOnButton"></Button>
+
+    </Grid>
+
+</ContentPage>
